@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>DiaVer Salon | Kadeřnictví, vizáž a kosmetika Nové Strašecí</title>
+<meta name="description" content="Kadeřnictví, vizáž a kosmetika na jednom místě v Novém Strašecí. Střihy, barvení, svatební účesy, make-up i ošetření pleti. Objednejte se na +420 792 778 624." />
+<meta name="author" content="DiaVer Salon" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#17130F" />
+<link rel="canonical" href="https://diaver.cz/" />
+
+<meta property="og:locale" content="cs_CZ" />
+<meta property="og:site_name" content="DiaVer Salon" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://diaver.cz/" />
+<meta property="og:title" content="DiaVer Salon | Krása, které dáváme čas" />
+<meta property="og:description" content="Kadeřnictví, vizáž a kosmetika na jednom místě v Novém Strašecí." />
+<meta property="og:image" content="https://diaver.cz/images/social/og-image.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="images/social/apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://images.pexels.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600;1,700&family=Great+Vibes&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+<!-- první hero fotka je LCP prvek — načíst ji co nejdřív -->
+<link rel="preload" as="image" href="images/hero/kadernictvi.webp" type="image/webp" fetchpriority="high" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "DiaVer Salon",
+  "description": "Kadeřnictví, vizáž a kosmetika v Novém Strašecí.",
+  "url": "https://diaver.cz/",
+  "telephone": "+420792778624",
+  "email": "DiaVer.salon@gmail.com",
+  "priceRange": "$$",
+  "currenciesAccepted": "CZK",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jungmannova 245",
+    "addressLocality": "Nové Strašecí",
+    "postalCode": "27101",
+    "addressCountry": "CZ"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "description": "Na objednání"
+  }],
+  "sameAs": [
+    "https://www.instagram.com/diaver.salon/",
+    "https://www.facebook.com/DiaVer.salon/"
+  ],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kadeřnictví" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Vizáž a líčení" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kosmetika" } }
+  ]
+}
+</script>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="ic-dryer" viewBox="0 0 120 120">
+      <path d="M20 46 Q18 20 52 20 Q84 20 92 40 L108 32 L106 56 L90 50 Q82 68 52 68 Q20 68 20 46 Z"/>
+      <path d="M40 68 L30 106 M52 68 L54 106"/>
+      <path d="M100 34 Q112 40 100 46"/>
+    </symbol>
+    <symbol id="ic-scissors" viewBox="0 0 120 120">
+      <circle cx="26" cy="90" r="13"/>
+      <circle cx="52" cy="96" r="13"/>
+      <path d="M36 80 L104 14"/>
+      <path d="M46 90 L16 18"/>
+    </symbol>
+    <symbol id="ic-comb" viewBox="0 0 120 120">
+      <path d="M10 24 Q60 8 110 24 L110 40 Q60 26 10 40 Z"/>
+      <path d="M18 40 V104 M30 40 V104 M42 40 V104 M54 40 V104 M66 40 V104 M78 40 V104 M90 40 V104 M102 40 V104"/>
+    </symbol>
+    <symbol id="ic-brush" viewBox="0 0 120 120">
+      <path d="M14 108 L64 58"/>
+      <path d="M60 54 Q66 36 88 20 Q106 36 88 54 Q72 76 54 66 Z"/>
+    </symbol>
+    <symbol id="ic-mirror" viewBox="0 0 120 120">
+      <circle cx="60" cy="46" r="34"/>
+      <path d="M60 80 L60 112"/>
+      <path d="M44 112 L76 112"/>
+    </symbol>
+    <symbol id="ic-sprig" viewBox="0 0 120 120">
+      <path d="M60 112 Q56 66 60 12"/>
+      <path d="M60 88 Q36 79 29 55 Q52 58 60 78"/>
+      <path d="M60 64 Q84 55 91 31 Q68 34 60 54"/>
+      <path d="M60 40 Q40 33 35 14 Q55 17 60 34"/>
+    </symbol>
+    <symbol id="ic-bottle" viewBox="0 0 120 120">
+      <path d="M44 46 H76 V102 Q76 110 68 110 H52 Q44 110 44 102 Z"/>
+      <path d="M51 46 V26 H69 V46"/>
+      <path d="M47 20 H73 V26 H47 Z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="dust" id="dust" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="brand">Dia<em>Ver</em></a>
+  <nav class="nav-links">
+    <a href="#o-nas">O nás</a>
+    <a href="#cenik">Ceník</a>
+    <a href="#tym">Tým</a>
+    <a href="#kontakt">Kontakty</a>
+  </nav>
+  <button class="menu-btn" id="menuBtn" aria-label="Otevřít menu" aria-expanded="false" aria-controls="menuPanel">
+    <i></i><i></i><i></i>
+  </button>
+</header>
+
+<nav class="menu-panel" id="menuPanel" aria-label="Hlavní menu">
+  <button class="menu-close" id="menuClose" aria-label="Zavřít menu">
+    <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="#o-nas">O nás</a>
+  <a href="#cenik">Ceník</a>
+  <a href="#tym">Tým</a>
+  <a href="#kontakt">Kontakty</a>
+  <a class="tel" href="tel:+420792778624">+420 792 778 624</a>
+</nav>
+
+<main class="hero" id="top">
+  <h1 class="sr-only">DiaVer Salon — kadeřnictví, vizáž a kosmetika v Novém Strašecí</h1>
+  <a class="col" href="#cenik-kadernictvi" aria-label="Kadeřnictví — přejít na ceník kadeřnictví">
+    <span class="bg" style="background-image:url('images/hero/kadernictvi.jpg'); background-image:image-set(url('images/hero/kadernictvi.webp') type('image/webp'), url('images/hero/kadernictvi.jpg') type('image/jpeg'))"></span>
+    <div class="face">
+      <span class="eyebrow">Vlasy</span>
+      <h2>Kadeřnictví</h2>
+      <p>Střihy, barvení a styling s citem pro detail.</p>
+    </div>
+    <span class="arrow"><svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></span>
+  </a>
+  <a class="col" href="#cenik-vizaz" aria-label="Vizáž — přejít na ceník vizáže">
+    <span class="bg" style="background-image:url('images/hero/vizaz.jpg'); background-image:image-set(url('images/hero/vizaz.webp') type('image/webp'), url('images/hero/vizaz.jpg') type('image/jpeg'))"></span>
+    <div class="face">
+      <span class="eyebrow">Líčení</span>
+      <h2>Vizáž</h2>
+      <p>Denní i svatební make-up na míru.</p>
+    </div>
+    <span class="arrow"><svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></span>
+  </a>
+  <a class="col" href="#cenik-kosmetika" aria-label="Kosmetika — přejít na ceník kosmetiky">
+    <span class="bg" style="background-image:url('images/hero/kosmetika.jpg'); background-image:image-set(url('images/hero/kosmetika.webp') type('image/webp'), url('images/hero/kosmetika.jpg') type('image/jpeg'))"></span>
+    <div class="face">
+      <span class="eyebrow">Pleť</span>
+      <h2>Kosmetika</h2>
+      <p>Ošetření pleti a relaxační péče.</p>
+    </div>
+    <span class="arrow"><svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></span>
+  </a>
+  <span class="hero-scroll" aria-hidden="true"><span>Scroll</span><span class="ln"></span></span>
+</main>
+
+<section class="sec" id="o-nas">
+  <span class="glow" style="width:420px;height:420px; top:2%; left:4%; --gd:50s;"></span>
+  <span class="orbit rev" style="width:300px;height:300px; bottom:8%; left:6%; --ot:80s;" aria-hidden="true"></span>
+  <picture>
+    <source srcset="images/logo/logo-kresba.webp" type="image/webp">
+    <img class="wm" width="800" height="856" src="images/logo/logo-kresba.jpg" alt="" aria-hidden="true" style="width:520px; top:10%; right:12%;">
+  </picture>
+  <div class="sec-inner reveal">
+    <span class="eyebrow">O nás</span>
+    <h2>Krása, které dáváme čas.</h2>
+    <span class="rule-draw" aria-hidden="true"></span>
+    <p class="lead">Tady si na vás uděláme čas.</p>
+    <p>V DiaVer Salonu se kadeřnictví, vizáž a kosmetika potkávají pod jednou střechou — ne kvůli pohodlí, ale protože se tyto tři péče navzájem doplňují a dohromady dávají smysl.</p>
+    <p>Za židlí i u zrcadla najdete tým, který si na vás skutečně udělá čas. Bez spěchu, bez cizích tváří — jen trpělivost a preciznost, na kterou si rychle zvyknete. Ať přijdete na cokoliv, odcházíte vždycky jako vy — jen zářivější.</p>
+    <p class="sign">— tým DiaVer Salon</p>
+  </div>
+</section>
+
+<section class="sec alt" id="cenik">
+  <span class="glow" style="width:380px;height:380px; bottom:6%; right:8%; --gd:58s;"></span>
+  <span class="orbit" style="width:440px;height:440px; bottom:4%; right:4%; --ot:105s;" aria-hidden="true"></span>
+  <span class="sheen" aria-hidden="true"></span>
+  <svg class="deco" style="width:200px;height:200px; top:13%; right:7%; --sway-dur:10s; --sway-rot:-2deg;" aria-hidden="true"><use href="#ic-scissors"/></svg>
+  <svg class="deco" style="width:230px;height:230px; bottom:9%; right:6%; --sway-dur:12s; --sway-delay:1.2s; --sway-rot:2.4deg;" aria-hidden="true"><use href="#ic-comb"/></svg>
+  <div class="sec-inner reveal">
+    <span class="eyebrow">Ceník</span>
+    <h2>Poctivá cena, poctivá péče.</h2>
+    <span class="rule-draw" aria-hidden="true"></span>
+  </div>
+  <div class="price-board reveal stagger">
+    <div class="price-panel" id="cenik-kadernictvi">
+      <div class="price-panel-head"><svg class="ic" viewBox="0 0 120 120"><use href="#ic-scissors"/></svg><h3>Kadeřnictví</h3></div>
+      <div class="price-panel-div"></div>
+      <div class="price-cat"><h4>Střihy</h4>
+        <div class="price-row"><span>Pánský střih</span><span class="leader"></span><span class="amt">300 Kč</span></div>
+        <div class="price-row"><span>Chlapecký střih do 5 let</span><span class="leader"></span><span class="amt">250 Kč</span></div>
+        <div class="price-row"><span>Chlapecký střih nad 5 let</span><span class="leader"></span><span class="amt">300 Kč</span></div>
+        <div class="price-row"><span>Dámský střih</span><span class="leader"></span><span class="amt">750 Kč</span></div>
+        <div class="price-row"><span>Dámský střih – dlouhé vlasy</span><span class="leader"></span><span class="amt">950 Kč</span></div>
+        <div class="price-row"><span>Dívčí střih do 5 let</span><span class="leader"></span><span class="amt">350–650 Kč</span></div>
+        <div class="price-row"><span>Dívčí střih nad 5 let</span><span class="leader"></span><span class="amt">550–850 Kč</span></div>
+      </div>
+      <div class="price-cat"><h4>Barvení a kombinace</h4>
+        <div class="price-row"><span>Barva – odrost + foukaná</span><span class="leader"></span><span class="amt">1390 Kč</span></div>
+        <div class="price-row"><span>Přeliv + střih + foukaná</span><span class="leader"></span><span class="amt">1600 Kč</span></div>
+        <div class="price-row"><span>Barva + střih + foukaná</span><span class="leader"></span><span class="amt">1600 Kč</span></div>
+        <div class="price-row"><span>Barva/přeliv celých vlasů + střih + foukaná</span><span class="leader"></span><span class="amt">1900 Kč</span></div>
+      </div>
+      <div class="price-cat"><h4>Melíry a techniky</h4>
+        <div class="price-row"><span>Melír</span><span class="leader"></span><span class="amt">2500 Kč</span></div>
+        <div class="price-row"><span>Melír + střih + foukaná</span><span class="leader"></span><span class="amt">2900 Kč</span></div>
+        <div class="price-row"><span>Balayage / Foilyage / Airtouch / Face framing + střih + foukaná</span><span class="leader"></span><span class="amt">3590–4590 Kč</span></div>
+      </div>
+    </div>
+    <div class="price-panel" id="cenik-vizaz">
+      <div class="price-panel-head"><svg class="ic" viewBox="0 0 120 120"><use href="#ic-brush"/></svg><h3>Vizáž</h3></div>
+      <div class="price-panel-div"></div>
+      <div class="price-cat"><h4>Společenské akce a plesy</h4>
+        <div class="price-row"><span>Denní make-up</span><span class="leader"></span><span class="amt">1200 Kč</span></div>
+        <div class="price-row"><span>Večerní líčení</span><span class="leader"></span><span class="amt">1500 Kč</span></div>
+        <div class="price-row"><span>Společenské účesy</span><span class="leader"></span><span class="amt">od 1200 Kč</span></div>
+        <div class="price-row"><span>Foto make-up klasický</span><span class="leader"></span><span class="amt">1500 Kč</span></div>
+        <div class="price-row"><span>Hair styling</span><span class="leader"></span><span class="amt">od 500 Kč</span></div>
+        <div class="price-row"><span>Extravagance</span><span class="leader"></span><span class="amt">od 2000 Kč</span></div>
+      </div>
+      <div class="price-cat"><h4>Svatební servis</h4>
+        <div class="price-row"><span>Svatební balíček pro nevěstu</span><span class="leader"></span><span class="amt">7000 Kč</span></div>
+        <div class="price-row"><span>Make-up (svatebčané)</span><span class="leader"></span><span class="amt">1000 Kč</span></div>
+        <div class="price-row"><span>Svatební účes</span><span class="leader"></span><span class="amt">od 800 Kč*</span></div>
+        <div class="price-row"><span>Cestovné (nad 15 km od Kladna)</span><span class="leader"></span><span class="amt">7 Kč/km</span></div>
+        <p class="price-footnote">*Dle druhu účesu a délky vlasů</p>
+      </div>
+    </div>
+    <div class="price-panel" id="cenik-kosmetika">
+      <div class="price-panel-head"><svg class="ic" viewBox="0 0 120 120"><use href="#ic-mirror"/></svg><h3>Kosmetika</h3></div>
+      <div class="price-panel-div"></div>
+      <div class="price-cat"><h4>Kosmetické ošetření</h4>
+        <div class="price-row"><span>Základní kosmetické ošetření · 60 min</span><span class="leader"></span><span class="amt">1290 Kč</span></div>
+        <p class="price-desc">Odlíčení, povrchové čištění, úprava obočí, peeling, hloubkové čištění, maska, závěrečná péče.</p>
+        <div class="price-row"><span>DELUXE kosmetické ošetření · 90 min</span><span class="leader"></span><span class="amt">1490 Kč</span></div>
+        <p class="price-desc">Odlíčení, povrchové čištění, barvení a úprava řas i obočí, peeling, hloubkové čištění, kosmetická masáž, maska, závěrečná péče.</p>
+      </div>
+      <div class="price-cat"><h4>Ošetření řas i obočí</h4>
+        <div class="price-row"><span>Lash lifting</span><span class="leader"></span><span class="amt">1190 Kč</span></div>
+        <div class="price-row"><span>Laminace obočí</span><span class="leader"></span><span class="amt">1190 Kč</span></div>
+        <div class="price-row"><span>Laminace obočí bez barvení</span><span class="leader"></span><span class="amt">1090 Kč</span></div>
+        <div class="price-row"><span>Balíček laminace obočí + lash lifting</span><span class="leader"></span><span class="amt">1690 Kč</span></div>
+      </div>
+      <div class="price-cat"><h4>Samostatné služby</h4>
+        <div class="price-row"><span>Barvení a úprava řas i obočí</span><span class="leader"></span><span class="amt">490 Kč</span></div>
+        <div class="price-row"><span>Barvení a úprava obočí</span><span class="leader"></span><span class="amt">250 Kč</span></div>
+        <div class="price-row"><span>Barvení řas</span><span class="leader"></span><span class="amt">250 Kč</span></div>
+        <div class="price-row"><span>Úprava obočí</span><span class="leader"></span><span class="amt">190 Kč</span></div>
+      </div>
+    </div>
+  </div>
+  <p class="price-note reveal">Ceny jsou orientační. Konečná cena se odvíjí od délky a hustoty vlasů, použitého materiálu a náročnosti úkonu.</p>
+</section>
+
+<section class="sec" id="tym">
+  <span class="glow" style="width:400px;height:400px; top:8%; right:8%; --gd:46s;"></span>
+  <span class="orbit rev" style="width:560px;height:560px; top:2%; left:-6%; --ot:135s;" aria-hidden="true"></span>
+  <svg class="deco" style="width:210px;height:210px; top:12%; right:8%; --sway-dur:8s; --sway-rot:3deg;" aria-hidden="true"><use href="#ic-brush"/></svg>
+  <svg class="deco" style="width:200px;height:200px; top:16%; right:26%; --sway-dur:11s; --sway-delay:.8s;" aria-hidden="true"><use href="#ic-mirror"/></svg>
+  <div class="sec-inner reveal">
+    <span class="eyebrow">Náš tým</span>
+    <h2>Ruce, kterým můžete věřit.</h2>
+    <span class="rule-draw" aria-hidden="true"></span>
+  </div>
+  <div class="team-grid reveal stagger">
+    <div class="team-card">
+      <div class="team-photo"><img loading="lazy" width="845" height="1056" src="images/tym/hana/portret.jpg" alt="Hana Žaludová — vedoucí kadeřnice a majitelka salonu"></div>
+      <span class="team-role">Vedoucí kadeřnice · Majitelka</span>
+      <h3>Hana Žaludová</h3>
+      <p class="team-bio">Salonu se věnuje s láskou k detailu. Specializuje se na střihy a barvení s důrazem na zdraví vlasů.</p>
+      <a class="team-tel" href="tel:+420722078829"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+420 722 078 829</a>
+      <div class="team-thumbs">
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="421" height="562" src="images/tym/hana/prace-01.jpg" alt="Hana — dámský účes, dlouhé vlasy s ombré"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="421" height="562" src="images/tym/hana/prace-02.jpg" alt="Hana — dámský účes, polodlouhé měděné vlasy"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="421" height="562" src="images/tym/hana/prace-03.jpg" alt="Hana — pánský střih"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="421" height="562" src="images/tym/hana/prace-04.jpg" alt="Hana — dětský klučičí střih"></button>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo"><img loading="lazy" width="843" height="845" src="images/tym/gabriela/portret.jpg" alt="Gabriela Bosáková — kadeřnice a vizážistka"></div>
+      <span class="team-role">Kadeřnice · Vizážistka</span>
+      <h3>Gabriela Bosáková</h3>
+      <p class="team-bio">Spojuje péči o vlasy s líčením — od denního stylingu po svatební a společenský make-up.</p>
+      <a class="team-tel" href="tel:+420736460610"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+420 736 460 610</a>
+      <div class="team-thumbs">
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="435" height="562" src="images/tym/gabriela/prace-01.jpg" alt="Gabriela — společenské líčení a účes"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="588" height="562" src="images/tym/gabriela/prace-02.jpg" alt="Gabriela — svatební účes, vlny"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="310" height="562" src="images/tym/gabriela/prace-03.jpg" alt="Gabriela — dámský účes, dlouhé tmavé vlasy"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="427" height="562" src="images/tym/gabriela/prace-04.jpg" alt="Gabriela — dámský účes, dlouhé vlasy"></button>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo"><img loading="lazy" width="856" height="1032" src="images/tym/katerina/portret.jpg" alt="Kateřina Žaludová — kadeřnice"></div>
+      <span class="team-role">Kadeřnice</span>
+      <h3>Kateřina Žaludová</h3>
+      <p class="team-bio">Vlasy jsou její parketa v každé podobě — střih, barva i foukaná, pro malé i velké.</p>
+      <a class="team-tel" href="tel:+420733459809"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+420 733 459 809</a>
+      <div class="team-thumbs">
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="400" height="400" src="https://images.pexels.com/photos/2100063/pexels-photo-2100063.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Kateřina — ukázka práce 1"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="400" height="400" src="https://images.pexels.com/photos/3865711/pexels-photo-3865711.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Kateřina — ukázka práce 2"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="400" height="400" src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Kateřina — ukázka práce 3"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="400" height="400" src="https://images.pexels.com/photos/7750099/pexels-photo-7750099.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Kateřina — ukázka práce 4"></button>
+      </div>
+    </div>
+    <div class="team-card">
+      <div class="team-photo"><img loading="lazy" width="600" height="672" src="images/tym/petra/portret.jpg" alt="Petra Pošmurná — kosmetička"></div>
+      <span class="team-role">Kosmetička</span>
+      <h3>Petra Pošmurná</h3>
+      <p class="team-bio">Kosmetice, laminaci obočí a lash liftingu se věnuje s radostí — v klidném prostředí, kde si odpočinete a dopřejete si péči, kterou si zasloužíte.</p>
+      <a class="team-tel" href="tel:+420732800461"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+420 732 800 461</a>
+      <div class="team-thumbs">
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="800" height="800" src="images/tym/petra/prace-01.jpg" alt="Petra — laminace obočí a řas"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="800" height="800" src="images/tym/petra/prace-02.jpg" alt="Petra — úprava obočí a prodloužení řas"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="800" height="800" src="images/tym/petra/prace-03.jpg" alt="Petra — kosmetické ošetření pleti"></button>
+        <button type="button" aria-label="Otevřít fotku"><img loading="lazy" width="800" height="800" src="images/tym/petra/prace-04.jpg" alt="Petra — aplikace pleťové masky"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galerie">
+  <button class="lb-btn lb-close" id="lbClose" aria-label="Zavřít"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Předchozí"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg></button>
+  <img id="lbImg" alt="">
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Další"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></button>
+  <span class="lb-caption" id="lbCaption"></span>
+</div>
+
+<footer class="sec sec-foot" id="kontakt">
+  <span class="glow" style="width:360px;height:360px; bottom:8%; left:10%; --gd:52s;"></span>
+  <span class="orbit" style="width:380px;height:380px; top:12%; right:3%; --ot:95s;" aria-hidden="true"></span>
+  <svg class="deco" style="width:190px;height:190px; top:9%; right:16%; --sway-dur:9.5s; --sway-rot:-1.6deg;" aria-hidden="true"><use href="#ic-sprig"/></svg>
+  <svg class="deco" style="width:150px;height:150px; top:15%; right:30%; --sway-dur:13s; --sway-delay:1.4s; --sway-rot:2deg;" aria-hidden="true"><use href="#ic-bottle"/></svg>
+  <div class="sec-inner reveal">
+    <span class="eyebrow">Kontakty</span>
+    <h2>Ozvěte se nám.</h2>
+    <span class="rule-draw" aria-hidden="true"></span>
+  </div>
+
+  <div class="contact-layout reveal">
+    <div class="contact-info">
+      <div class="contact-rows">
+        <div class="contact-core">
+          <div class="contact-row">
+            <span class="ic"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><span class="lbl">Adresa</span><a class="val" href="https://maps.app.goo.gl/JyuLP2wC9EcCHX5d9" target="_blank" rel="noopener">Jungmannova 245,<br>271 01 Nové Strašecí</a></div>
+          </div>
+          <div class="contact-row">
+            <span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+            <div>
+              <span class="lbl">Otevírací doba</span>
+              <span class="val">Pondělí – Pátek: na objednání</span>
+              <span class="val dim">Sobota – Neděle: zavřeno</span>
+            </div>
+          </div>
+          <div class="contact-row">
+            <span class="ic"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <div><span class="lbl">Telefon salonu</span><a class="val" href="tel:+420792778624">+420 792 778 624</a></div>
+          </div>
+        </div>
+        <div class="contact-social">
+          <div class="contact-row">
+            <span class="ic"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg></span>
+            <div><span class="lbl">Instagram</span><a class="val" href="https://www.instagram.com/diaver.salon/" target="_blank" rel="noopener">@diaver.salon</a></div>
+          </div>
+          <div class="contact-row">
+            <span class="ic"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></span>
+            <div><span class="lbl">Facebook</span><a class="val" href="https://www.facebook.com/DiaVer.salon/" target="_blank" rel="noopener">@DiaVer.salon</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-team">
+        <span class="contact-team-label">Přímý kontakt na tým</span>
+        <div class="contact-team-list">
+          <a href="tel:+420722078829">Hana · 722 078 829</a>
+          <a href="tel:+420736460610">Gabriela · 736 460 610</a>
+          <a href="tel:+420733459809">Kateřina · 733 459 809</a>
+          <a href="tel:+420732800461">Petra · 732 800 461</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mapa se načte automaticky po udělení souhlasu, jinak až na kliknutí.
+         Do té doby Google nedostane žádný požadavek ani nenastaví cookies. -->
+    <div class="contact-map" id="contactMap"
+         data-map-src="https://www.google.com/maps?q=DiaVer+Salon,+Jungmannova+245,+271+01+Nov%C3%A9+Stra%C5%A1ec%C3%AD&output=embed">
+      <div class="map-placeholder" id="mapPlaceholder">
+        <svg viewBox="0 0 24 24" width="26" height="26" style="stroke:var(--gold);fill:none;stroke-width:1.2;">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+        </svg>
+        <p>Jungmannova 245, 271 01 Nové Strašecí</p>
+        <button type="button" class="btn btn-ghost" id="mapLoad">Zobrazit mapu</button>
+        <a href="https://maps.app.goo.gl/JyuLP2wC9EcCHX5d9" target="_blank" rel="noopener"
+           style="font-size:.78rem; color:var(--ivory-dim); text-decoration:underline; text-underline-offset:3px;">Otevřít v Google Maps →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-foot reveal">
+    <span class="brand-mini">Dia<em>Ver</em></span>
+    <span class="dot">·</span>
+    <span>Kde se krása setkává s elegancí</span>
+    <span class="dot">·</span>
+    <!-- rok doplní JS podle systémového data; 2026 je záloha, kdyby JS neběžel -->
+    <span>© <span id="year">2026</span></span>
+    <span class="dot">·</span>
+    <button type="button" class="link-btn" data-modal-open="modalGdpr">Osobní údaje</button>
+    <span class="dot">|</span>
+    <button type="button" class="link-btn" data-modal-open="modalCookies">Cookies</button>
+    <span class="dot">|</span>
+    <button type="button" class="link-btn" id="cookieReset">Nastavení cookies</button>
+    <p class="foot-credit">Tenhle web jsem rozhodně nevytvořil. <a href="https://www.instagram.com/krpy_/" target="_blank" rel="noopener noreferrer">Ale kdyby náhodou...</a></p>
+  </div>
+</footer>
+
+<div class="cookie-bar" id="cookieBar" role="dialog" aria-live="polite" aria-label="Souhlas s cookies">
+  <p>Web používá technické cookies nutné pro jeho fungování. S vaším souhlasem navíc zobrazíme mapu od Google, která ukládá cookies třetích stran. Více v <button type="button" class="link" data-modal-open="modalCookies">zásadách cookies</button>.</p>
+  <div class="cookie-actions">
+    <button type="button" class="btn btn-primary" id="cookieAccept">Přijmout</button>
+    <button type="button" class="btn btn-ghost" id="cookieDecline">Odmítnout</button>
+  </div>
+</div>
+
+<div class="modal" id="modalGdpr" role="dialog" aria-modal="true" aria-labelledby="gdprTitle">
+  <div class="modal-box">
+    <button class="modal-close" data-modal-close aria-label="Zavřít"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <h2 id="gdprTitle">Zpracování osobních údajů</h2>
+    <p><strong>Správce osobních údajů:</strong><br>DiaVer Salon, Jungmannova 245, 271 01 Nové Strašecí<br>E-mail: DiaVer.salon@gmail.com · Telefon: +420 792 778 624</p>
+    <h3>Jaké údaje zpracováváme</h3>
+    <ul>
+      <li>Jméno a příjmení</li>
+      <li>Telefonní číslo</li>
+      <li>E-mailová adresa</li>
+      <li>Údaje uvedené při objednávce služeb</li>
+    </ul>
+    <h3>Za jakým účelem</h3>
+    <ul>
+      <li>Vyřízení rezervace a poskytnutí služby</li>
+      <li>Komunikace se zákazníkem</li>
+      <li>Plnění zákonných povinností</li>
+    </ul>
+    <h3>Doba uchování údajů</h3>
+    <p>Osobní údaje uchováváme po dobu nezbytně nutnou pro splnění účelu, případně po dobu stanovenou zákonem.</p>
+    <h3>Vaše práva</h3>
+    <ul>
+      <li>Právo na přístup k údajům</li>
+      <li>Právo na opravu nebo výmaz</li>
+      <li>Právo na omezení zpracování</li>
+      <li>Právo podat stížnost u Úřadu pro ochranu osobních údajů</li>
+    </ul>
+    <p class="modal-updated">Poslední aktualizace: 6. 9. 2026</p>
+  </div>
+</div>
+
+<div class="modal" id="modalCookies" role="dialog" aria-modal="true" aria-labelledby="cookiesTitle">
+  <div class="modal-box">
+    <button class="modal-close" data-modal-close aria-label="Zavřít"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <h2 id="cookiesTitle">Zásady používání cookies</h2>
+    <p>Cookies jsou malé textové soubory, které se ukládají do vašeho zařízení při návštěvě webových stránek.</p>
+    <h3>Jaké cookies používáme</h3>
+    <ul>
+      <li><strong>Technické</strong> — nezbytné pro fungování webu. Vaši volbu ohledně cookies si nikam neukládáme, proto se na souhlas ptáme při každé návštěvě znovu.</li>
+      <li><strong>Třetích stran</strong> — mapa od Google Maps v sekci Kontakty. Načteme ji až poté, co udělíte souhlas, případně když sami kliknete na „Zobrazit mapu“. Do té doby Google žádné cookies neukládá. Po zobrazení mapy se jejich zpracování řídí <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color:var(--gold);">zásadami ochrany soukromí Google</a>.</li>
+    </ul>
+    <p>Analytické ani marketingové cookies web nepoužívá.</p>
+    <h3>Jak volbu změnit</h3>
+    <p>Souhlas platí vždy jen pro aktuální návštěvu — při příštím otevření webu se zeptáme znovu. Lištu můžete kdykoli vyvolat odkazem „Nastavení cookies“ v patičce. Cookies lze také kdykoli vymazat nebo zablokovat přímo v prohlížeči.</p>
+    <p class="modal-updated">Poslední aktualizace: 6. 9. 2026</p>
+  </div>
+</div>
+
+<button class="to-top" id="toTop" aria-label="Zpět nahoru">
+  <svg viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>

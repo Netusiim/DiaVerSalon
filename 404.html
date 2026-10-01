@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Stránka nenalezena | DiaVer Salon</title>
+<meta name="robots" content="noindex, follow" />
+<meta name="theme-color" content="#17130F" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
+<style>
+  :root{ --ink:#17130F; --ivory:#F3EAD9; --ivory-dim:#C9BEAC; --gold:#C9A15B; --gold-soft:#8C723F; --line:rgba(201,161,91,.18); }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{ min-height:100vh; background:var(--ink); color:var(--ivory); font-family:'Jost',sans-serif; font-weight:300;
+        display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:40px 24px; gap:6px; }
+  .eyebrow{ font-size:.72rem; letter-spacing:.32em; text-transform:uppercase; color:var(--gold); }
+  h1{ font-family:'Cormorant Garamond',serif; font-style:italic; font-weight:600; font-size:clamp(2rem,6vw,3.2rem); margin-top:14px; }
+  p{ color:var(--ivory-dim); margin-top:14px; max-width:46ch; line-height:1.8; }
+  .actions{ display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-top:32px; }
+  a.btn{ font-size:.78rem; letter-spacing:.12em; text-transform:uppercase; padding:12px 22px; border-radius:100px;
+         text-decoration:none; transition:background .35s, border-color .35s, color .35s; }
+  .primary{ background:var(--gold); border:1px solid var(--gold); color:var(--ink); }
+  .primary:hover{ background:#dcb570; border-color:#dcb570; }
+  .ghost{ background:none; border:1px solid var(--line); color:var(--ivory-dim); }
+  .ghost:hover{ border-color:var(--gold-soft); color:var(--ivory); }
+</style>
+</head>
+<body>
+  <span class="eyebrow">Chyba 404</span>
+  <h1>Tuhle stránku jsme nenašli.</h1>
+  <p>Možná se přesunula nebo odkaz obsahuje překlep. Zkuste se vrátit na úvod — nebo nám rovnou zavolejte.</p>
+  <div class="actions">
+    <a class="btn primary" href="/">Zpět na úvod</a>
+    <a class="btn ghost" href="tel:+420792778624">+420 792 778 624</a>
+  </div>
+</body>
+</html>

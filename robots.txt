@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# interní soubory, které nemají co dělat ve vyhledávání
+Disallow: /TODO.md
+Disallow: /DOKUMENTACE.md
+Disallow: /images/README.md
+
+Sitemap: https://diaver.cz/sitemap.xml
